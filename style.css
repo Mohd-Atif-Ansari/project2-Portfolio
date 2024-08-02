@@ -1,0 +1,315 @@
+ .body{
+  background: none;
+ }
+  .name-background{
+    display: grid;
+    display: flex;
+   
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./images/Bckground-plane-blue.jpg);
+   
+  }
+  .para p{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+  }
+  .name{
+    padding-top: 200px;
+    margin-left: 20px;
+    font-size: xx-large;
+    color: aliceblue;
+   }
+   /*----------------------------------------------------------------------*/
+   /*About*/
+  .about{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+
+  }
+
+    .my-img img{
+       
+       display: flex;
+      height: 200px;
+      width: 200px;
+      margin-top: 10% ;
+      margin-left: 32%;
+      border-radius: 50%;
+       
+    }
+   
+   .Hello{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+   }
+   .para2{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   }
+    .para2 p{
+      margin-top:5px; 
+      width: 40%;
+    }
+
+    /*------------------------------------------------------------------------*/
+
+
+    /*skills design*/
+    .skills .container{
+      display: grid;
+      height: 100vh;
+      background-color: skyblue;
+     
+    }
+   .grid-web-dev-conatiner{
+    display: flex;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows:200px 200px;
+    justify-content: center;
+    gap: 10px;
+    background-color: skyblue;
+    color: aliceblue;
+   }
+   .skills-heading h2{
+    font-size:xx-large;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    justify-content: center;
+    color: aliceblue;
+   }
+    .item1 img{
+      display: grid;
+      height: 200px;
+      width: 250px;
+      border-radius: 40%;
+      
+    }
+    .item3 img{
+      display: grid;
+      height: 200px;
+      width: 250px;
+      border-radius: 40%;
+
+    }
+    /*------------------------------------------------------------------------*/
+
+    
+    /*interest*/
+     .interest  .my-interest{
+      height: 50vh;
+      
+      display: flex;
+      justify-content: center;
+       align-items: center;
+      
+      background-color:white;
+      
+     }
+     .interest-font1 h2{
+      display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+     .interest-font2 h3{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     .interest-font3 p{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+
+     .button-1{
+       display: flex;
+       justify-content: center;
+       padding-bottom: 5px;
+       
+     }
+     .button-1 button{
+      border-radius:30px;
+      border: none;
+      background: skyblue;
+      color: azure;
+      height: 30px;
+      width: 100px;
+     }
+
+
+
+     /*------------------------------------------------------------------------*/
+     /*footer design*/
+     .footer{
+      display: grid;
+      display: flex;
+      justify-content: center;
+      height: 50vh;
+      background-image: url(./images/Background-image-For-Footer3.jpg);
+      
+     }
+     .grid-social-media-conatiner{
+       margin-top: 50px;
+         display: flex;
+         gap: 80px;
+         justify-content: center;
+         align-items: center;
+         color: aliceblue;
+     }
+     .container .h5{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: aliceblue;
+       }
+     /*----------------------------------------------------------------------------------------------*/
+     
+      @media(max-width:630px){
+       
+       /*skills---*/
+       .skills .container{
+        display: grid;
+        height: 100vh;
+        background-color: skyblue;
+        margin-left: -8px;
+       
+      }
+      .grid-web-dev-conatiner{
+       display: flex;
+       display: grid;
+       
+       grid-template-columns: 180px 200px ;
+       grid-template-rows:300px 410px;
+       justify-content: center;
+       
+       background-color: skyblue;
+      color: aliceblue;
+     }
+     .skills-heading h2{
+      font-size:xx-large;
+      margin-left: 45%;
+      margin-bottom: 50px;
+      justify-content: center;
+      color: aliceblue;
+     }
+      .item1 img{
+        display: grid;
+        height: 100px;
+        width: 150px;
+        border-radius: 40%;
+        
+      }
+      .item2{
+        display: grid;
+        margin-right:30%;
+        
+      }
+      .item2 p{
+        display: grid;
+        margin-right:30%;
+      }
+      .item4{
+        display: grid;
+        margin-right:30%;
+      }
+      .item4 p{
+        display: grid;
+        margin-right:30%;
+      }
+      .item3 img{
+        display: grid;
+        height: 100px;
+        width: 150px;
+        border-radius: 40%;
+  
+      }
+
+       /*--------*/
+         /*interest----------------------------------------------*/
+     .interest  .my-interest{
+      height: 100vh;
+      
+      display: flex;
+      justify-content: center;
+       align-items: center;
+      
+      background-color:white;
+      margin-top: 30%;
+      margin-bottom: -20%;
+     }
+     .interest-font1 h2{
+      display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+     .interest-font2 h3{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     .interest-font3 p{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+
+     .button-1{
+       display: flex;
+       justify-content: center;
+       padding-bottom: 5px;
+       
+     }
+     .button-1 button{
+      border-radius:30px;
+      border: none;
+      background: skyblue;
+      color: azure;
+      height: 30px;
+      width: 100px;
+     }
+   /*---------------------------------------------------------------*/
+
+   /*footer------------------*/
+  
+
+      }
+
+
+
+
+
+
+  .gradient-background{
+    background: linear-gradient(300deg, #3ad6dc, #2dcabd, #188387);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .my-background1{
+    background-image:url("./images/Bckground-plane-blue.jpg");
+    background-color: skyblue;
+  }
+  
